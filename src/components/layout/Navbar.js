@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 
-class Navbar extends Component {
+export class Navbar extends Component {
   render () {
     return (
       <div>
       <nav class="navbar dark absolute">
    <div class="nav-wrapper">
-     <a href="#" class="brand-logo"><i class="icon-diamond white-text"></i></a>
+     <a href="#" class="brand-logo"><i class="material-icons md-48">
+power
+</i></a>
      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
      <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li class="active"><a class="dropdown-trigger" href="#!" data-target="pages">Pages<i class="material-icons right">arrow_drop_down</i></a></li>
