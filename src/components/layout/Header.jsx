@@ -1,16 +1,25 @@
 import React, {Component} from 'react';
 
-
 export class Header extends Component {
   render () {
     return (
       <div>
       <div class="header full-height horizontal-half-transition">
 
-  <div class="phone-preview-sizer">
-    <div class="phone-preview"></div>
-  
-  </div>
+      <div class="phone-preview-sizer">
+        <div class="phone-preview"></div>
+        <div class="image-container active">
+
+        </div>
+        <div class="image-container" >
+
+        </div>
+        <div class="image-container">
+
+        </div>
+      </div>
+
+
   <div class="horizontal-half-wrapper right-side active">
     <div class="header-background white"></div>
     <div class="header-wrapper row valign-wrapper">

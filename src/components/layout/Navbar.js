@@ -5,12 +5,11 @@ export class Navbar extends Component {
     return (
       <div>
       <nav class="navbar dark absolute">
-   <div class="nav-wrapper">
-     <a href="#" class="brand-logo"><i class="material-icons md-48">
-power
-</i></a>
-     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-     <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <div class="nav-wrapper">
+          <a href="horizontal-half.html" class="brand-logo"><i class="material-icons md-48">power</i>
+          </a>
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li class="active"><a class="dropdown-trigger" href="#!" data-target="pages">Pages<i class="material-icons right">arrow_drop_down</i></a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="team.html">Team</a></li>
@@ -19,7 +18,7 @@ power
         </ul>
 
         <ul id="pages" class="dropdown-content">
-               <li><a class="active" href="horizontal-half.html">Horizontal Halves</a></li>
+               <li><a class="active" href="horizontal-half.html">Home</a></li>
                <li><a href="sierra.html">Zoom Out</a></li>
                <li><a href="circle-reveal.html">Circle Reveal</a></li>
                <li><a href="phone-wall.html">Phone Wall</a></li>
@@ -39,7 +38,7 @@ power
             <a class="collapsible-header waves-effect waves-teal active">Pages</a>
             <div class="collapsible-body">
               <ul>
-                <li><a class="active" href="horizontal-half.html">Horizontal Halves</a></li>
+                <li><a class="active" href="horizontal-half.html">Home</a></li>
                 <li><a href="sierra.html">Zoom Out</a></li>
                 <li><a href="circle-reveal.html">Circle Reveal</a></li>
                 <li><a href="phone-wall.html">Phone Wall</a></li>
